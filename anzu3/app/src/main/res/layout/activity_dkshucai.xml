@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DKSHUcaiActivity">
+<TextView
+    android:textSize="40dp"
+    android:layout_gravity="center"
+    android:text="素材中心使用说明"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下载素材是第三方提供软件下载，点击下列第三方软件名称打开软件（未安装软件会自动跳转下载链接下载），选择合适的素材并点击保存或者下载到手机。下载完毕后，素材中心自动加载出结果，删除请在相册里删除。"/>
+    <Button
+        android:id="@+id/yantu"
+        android:text="艳图"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/tupiandaquan"
+        android:text="图片大全"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/fanhui"
+        android:text="返回返回"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

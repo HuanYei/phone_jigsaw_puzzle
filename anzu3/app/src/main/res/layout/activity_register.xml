@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="输入注册信息"/>
+    <EditText
+        android:id="@+id/username"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="100dp"
+        android:layout_width="match_parent"
+        android:maxLength="8"
+        android:hint="昵称"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/usersex"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="100dp"
+        android:layout_width="match_parent"
+        android:maxLength="2"
+        android:hint="性别"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/userphone"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="3"
+            android:hint="国内手机号"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/phonebt"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:background="@color/pt"
+            android:layout_weight="1"
+            android:text="发送验证码"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/yzm"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="100dp"
+        android:layout_width="match_parent"
+        android:maxLength="8"
+        android:hint="验证码"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/userpwd"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="100dp"
+        android:layout_width="match_parent"
+
+        android:hint="密码"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/userpwd2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="100dp"
+        android:layout_width="match_parent"
+        android:hint="确认密码"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/ok"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/loging"/>
+</LinearLayout>
